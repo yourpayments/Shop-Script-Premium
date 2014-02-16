@@ -13,7 +13,7 @@ define("__ENCODE__", "windows-1251");  # utf-8
 		#var $type = PAYMTD_TYPE_ONLINE;
 		var $language = 'rus';
 		var $default_logo = '/published/SC/html/img/logo-payu.png';
-		var $prUrl = "https://secure.payu.ua/order/lu.php";#"; 
+		var $prUrl = "https://secure.payu.ru/order/lu.php";#"; 
 		
 
 		var $useSSL = false;
@@ -65,16 +65,16 @@ define("__ENCODE__", "windows-1251");  # utf-8
 
 				
 				$this->SettingsFields['CONF_PAYU_LU_URL'] = array(
-					'settings_value' 			=> "https://secure.payu.ua/order/lu.php",
+					'settings_value' 			=> "https://secure.payu.ru/order/lu.php",
 					'settings_title' 			=> payu::_ENC("LiveUpdate URL"),
-					'settings_description' 		=> payu::_ENC("Ссылка LiveUpdate (default : https://secure.payu.ua/order/lu.php)"),
+					'settings_description' 		=> payu::_ENC("Ссылка LiveUpdate (default : https://secure.payu.ru/order/lu.php)"),
 					'settings_html_function' 	=> 'setting_TEXT_BOX(0,',
 					'sort_order' 				=> 1
 				);
 				$this->SettingsFields['CONF_PAYU_CURRENCY'] = array(
-					'settings_value' 			=> "UAH",
+					'settings_value' 			=> "RUB",
 					'settings_title' 			=> payu::_ENC("Валюта мерчанта "),
-					'settings_description' 		=> payu::_ENC("UAH"),
+					'settings_description' 		=> payu::_ENC("RUB"),
 					'settings_html_function' 	=> 'setting_TEXT_BOX(0,', #'setting_CURRENCY_SELECT(',
 					'sort_order' 				=> 1
 				);

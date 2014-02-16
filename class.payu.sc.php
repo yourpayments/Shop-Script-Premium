@@ -2,7 +2,7 @@
 class PayUCLS
 {
 	static $key, $merchant;
-	var $url = "https://secure.payu.ua/order/lu.php";
+	var $url = "https://secure.payu.ru/order/lu.php";
 
 
 	function __construct( $merch, $key )
