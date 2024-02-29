@@ -1,14 +1,10 @@
-(For PayU Ukraine and Russian ONLY)
--------
+# «Твои платежи», модуль для Shop-Script Premium 1.24
 
-Модуль для Shop-Script Premium 1.24 
-==========
+![](https://repository-images.githubusercontent.com/638835276/ff494b04-d65b-4843-8759-e85c689a7e80)
 
+[НКО «Твои Платежи»](https://YPMN.ru/ "Платёжная система для сайтов, платформ и приложений") - платёжная система для сайтов, платформ, игр и приложений.
 
--------
-
-
-Установка : 
+Установка: 
 
 1. Разместить файлы class.payu.php и class.payu.sc.php в папку `/{корень сайта}/modules/payument/`
 2. Папку images добавить в корень сайта

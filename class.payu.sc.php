@@ -2,7 +2,7 @@
 class PayUCLS
 {
 	static $key, $merchant;
-	var $url = "https://secure.payu.ru/order/lu.php";
+	var $url = "https://secure.ypmn.ru/order/lu.php";
 
 
 	function __construct( $merch, $key )
@@ -109,7 +109,7 @@ class PayUCLS
 		$form = '<form method="post" id="PayUForm" action="'.$this->url.'">'."\n";
 		foreach ( $this->data as $k => $v ) $form .= $this->makeString( $k, $v );
 		return $form . $logo.
-				# "<img src='http://www.payu.ru/sites/russia/files/logo-payu.png' width='70px' style='margin:0px 5px; float:left;'>".
+				# "<img src='http://www.ypmn.ru/sites/russia/files/logo-payu.png' width='70px' style='margin:0px 5px; float:left;'>".
 				#	"<input type='submit' ". ( ( $text == "" ) ? "" : "value='$text'" ).">".
 				"</form>";
 	}
